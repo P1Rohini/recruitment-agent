@@ -213,11 +213,17 @@ All 5 intents tested and working:
 
 When you run `py main.py`, you should see:
 [RAG] Loading local embedding model (all-MiniLM-L6-v2)...
+
 [RAG] First run will download ~90MB — please wait...
+
 [RAG] Embedding model ready ✓
+
 [LLM] Using Groq — model: llama-3.3-70b-versatile
+
 INFO: Uvicorn running on http://0.0.0.0:8000
+
 INFO: Application startup complete.
+
 Then open **http://localhost:8000** in your browser.
 
 ## 🔮 Future Improvements

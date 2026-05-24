@@ -59,7 +59,7 @@ User Query (natural language)
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/recruitment-agent.git
+git clone https://github.com/P1Rohini/recruitment-agent.git
 cd recruitment-agent
 ```
 
@@ -209,6 +209,16 @@ All 5 intents tested and working:
 - **Compare candidates** → Side-by-side winner recommendation
 
 ---
+## ✅ Expected Output on Startup
+
+When you run `py main.py`, you should see:
+[RAG] Loading local embedding model (all-MiniLM-L6-v2)...
+[RAG] First run will download ~90MB — please wait...
+[RAG] Embedding model ready ✓
+[LLM] Using Groq — model: llama-3.3-70b-versatile
+INFO: Uvicorn running on http://0.0.0.0:8000
+INFO: Application startup complete.
+Then open **http://localhost:8000** in your browser.
 
 ## 🔮 Future Improvements
 
